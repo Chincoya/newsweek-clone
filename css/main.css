@@ -8,6 +8,7 @@
 
 .container-fluid {
   max-width: 1310px;
+  min-width: 320px;
 }
 
 .red {
@@ -26,8 +27,29 @@
   height: 50px;
 }
 
-@media screen and (min-width: 991px) {
+.header-links > a {
+  font-size: 12px;
+  height: 26px;
+}
+
+.header-signin {
+  width: 51px;
+}
+
+.header-subscribe {
+  width: 73px;
+}
+
+.svg-image {
+  height: 20px;
+}
+
+@media screen and (min-width: 992px) {
   .main-header {
     height: 95px;
+  }
+
+  .svg-image {
+    height: 75% !important;
   }
 }
