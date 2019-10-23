@@ -1,0 +1,33 @@
+/*
+* Color variable: --Newsweek-red = #f72210
+*
+*/
+:root {
+  --Newsweek-red: #f72210;
+}
+
+.container-fluid {
+  max-width: 1310px;
+}
+
+.red {
+  background-color: var(--Newsweek-red);
+}
+
+.red-text {
+  color: var(--Newsweek-red);
+}
+
+.white {
+  background-color: white;
+}
+
+.main-header {
+  height: 50px;
+}
+
+@media screen and (min-width: 991px) {
+  .main-header {
+    height: 95px;
+  }
+}
