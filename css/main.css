@@ -7,8 +7,22 @@
 }
 
 body {
-  font-family: arial, sans-serif;
+  font-family: Arial, sans-serif;
   background-color: #f4f5f6;
+}
+
+p {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+img {
+  object-fit: cover;
 }
 
 .container-fluid {
@@ -27,11 +41,28 @@ body {
 }
 
 .red-text {
-  color: var(--Newsweek-red);
+  color: var(--Newsweek-red) !important;
 }
 
 .white {
   background-color: white;
+}
+
+.anchor-no-deco {
+  text-decoration: none;
+}
+
+.anchor-no-deco:hover,
+.anchor-no-deco:focus {
+  text-decoration: none;
+}
+
+.anchor-under-deco:hover {
+  text-decoration: underline var(--Newsweek-red);
+}
+
+.anchor-full-deco:hover {
+  color: var(--Newsweek-red) !important;
 }
 
 .main-header {
@@ -82,4 +113,16 @@ body {
 
 .nav-link {
   letter-spacing: -0.02rem;
+}
+
+.top-stories-main-tag {
+  bottom: 0;
+  height: 33px;
+  width: 96px;
+}
+
+.top-stories-main-tag:hover,
+.top-stories-main-tag:focus {
+  text-decoration: none;
+  color: var(--Newsweek-red);
 }
