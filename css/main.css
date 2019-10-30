@@ -6,9 +6,20 @@
   --Newsweek-red: #f72210;
 }
 
+body {
+  font-family: arial, sans-serif;
+  background-color: #f4f5f6;
+}
+
 .container-fluid {
   max-width: 1310px;
   min-width: 320px;
+  padding: 0;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .red {
@@ -30,6 +41,7 @@
 .header-links > a {
   font-size: 12px;
   height: 26px;
+  min-width: 56px;
 }
 
 .header-signin {
@@ -38,6 +50,20 @@
 
 .header-subscribe {
   width: 73px;
+}
+
+@media screen and (min-width: 481px) {
+  .header-links > a {
+    font-size: 16px;
+  }
+
+  .header-signin {
+    width: 81px;
+  }
+
+  .header-subscribe {
+    width: 126px;
+  }
 }
 
 .svg-image {
@@ -52,4 +78,8 @@
   .svg-image {
     height: 75% !important;
   }
+}
+
+.nav-link {
+  letter-spacing: -0.02rem;
 }
