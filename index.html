@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="preload" href="script/scripts.js" as="script">
 
     <title>Newsweek</title>
   </head>
   <body>
     <header class="container-fluid mb-lg-5">
-      <div class="row red main-header flex-nowrap flex-sm-wrap justify-content-between align-items-end pb-lg-1">
-        <div class="col col-sm text-white p-3 d-none d-lg-inline-block">This is a date</div>
+      <div id="main-header" class="row red main-header flex-nowrap flex-sm-wrap justify-content-between align-items-end pb-lg-1">
+        <div class="col col-sm text-white p-3 d-none d-lg-inline-block non-sticky">This is a date</div>
         <div class="col col-sm h-100 pr-0">
           <a href="#" class="brand d-flex h-100">
             <svg class="align-self-center svg-image" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
@@ -25,13 +26,13 @@
             </svg>
           </a>
         </div>
-        <div class="header-links h-100 pb-lg-3 col col-sm d-flex flex-nowrap justify-content-end align-items-center align-items-lg-end pl-0">
+        <div id="header-links" class="header-links h-100 pb-lg-3 col col-sm d-flex flex-nowrap justify-content-end align-items-center align-items-lg-end pl-0">
           <a href="#" class="d-block font-weight-bold red border-0 p-0 lk-2 text-white header-signin d-flex align-items-center justify-content-center anchor-no-deco roboto-cons">SIGN IN</a>
           <a href="#" class="d-block font-weight-bold white border-0 p-0 lk-3 red-text header-subscribe d-flex align-items-center justify-content-center anchor-no-deco roboto-cons">SUBSCRIBE</a>
-          <div class="header-menu pl-3 d-block d-lg-none text-light"><i class="fas fa-bars"></i></div>
+          <div id="header-menu" class="header-menu pl-3 d-block d-lg-none text-light"><i class="fas fa-bars"></i></div>
         </div>
-        <div class="w-100 d-none d-sm-block"></div>
-        <nav class="row bg-white navbar navbar-expand-lg w-100 d-none d-lg-flex pb-2 border-bottom border-black">
+        <div class="w-100 d-none d-sm-block non-sticky"></div>
+        <nav class="row bg-white navbar navbar-expand-lg w-100 d-none d-lg-flex pb-2 border-bottom border-black non-sticky">
           <div class="collapse navbar-collapse w-100">
             <ul class="navbar-nav w-100 justify-content-between">
               <li class="nav-item col p-0 border-right border-black"><a href="#" class="nav-link mb-0 font-weight-bold text-body h5 text-center anchor-full-deco roboto-cons">World</a></li>
@@ -53,11 +54,10 @@
           </div>
         </nav>
       </div>
-
     </header>
 
     <main class="main container-fluid pt-3 bg-white">
-      <div class="stories-container row flex-column flex-md-row">
+      <div id="stories-container" class="stories-container row flex-column flex-md-row">
         <div class="featured-stories-container col col-md-5 col-lg p-3 pr-md-0 order-3 order-md-1">
           <header class="featured-stories-header w-100 text-left text-secondary font-weight-bold d-block roboto-cons">FEATURED STORIES</header>
           <article class="featured-stories w-100 mb-3">
@@ -180,5 +180,6 @@
     <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+    <script src="script/scripts.js"></script>
   </body>
 </html>
