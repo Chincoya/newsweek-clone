@@ -1,5 +1,3 @@
-window.addEventListener("scroll", makeSticky);
-//document.getElementById('stories-container', makeScrollable);
 
 function makeSticky() {
   if (document.body.scrollTop > 90 || document.documentElement.scrollTop > 90) {
@@ -20,3 +18,6 @@ function makeSticky() {
     }
   }
 }
+
+window.addEventListener("scroll", makeSticky);
+console.log(document.getElementById('featured-stories-container').offsetWidth);
