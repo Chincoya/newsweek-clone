@@ -171,7 +171,7 @@ img {
   }
 }
 
-.travel-article h5{
+.travel-article h5 {
   font-family: 'Lora', serif;
 }
 
@@ -179,7 +179,7 @@ img {
   padding: 6px;
 }
 
-.travel-stories-tag a:hover{
+.travel-stories-tag a:hover {
   color: grey !important;
   background-color: black !important;
 }
