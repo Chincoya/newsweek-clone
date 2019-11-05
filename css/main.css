@@ -42,6 +42,10 @@ img {
 .container-fluid {
   max-width: 1310px;
   min-width: 320px;
+  padding: 0 1.5rem;
+}
+
+header.container-fluid {
   padding: 0;
 }
 
@@ -245,4 +249,36 @@ img {
 
 .newsletter-img {
   max-width: 191px;
+}
+
+.footer-brand {
+  min-width: 251px;
+  max-width: 251px;
+}
+
+.svg-footer-image {
+  width: 236px;
+  height: 36px;
+}
+
+.copyright {
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+}
+
+.genericon {
+  height: 24px;
+  width: 26px;
+  font-size: 24px;
+  line-height: 26px;
+}
+
+.social-links-list {
+  list-style: none;
+}
+
+.legal-list{
+  font-size: 14px;
+  line-height: 15px;
 }
