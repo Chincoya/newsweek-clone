@@ -83,6 +83,10 @@ img {
   color: var(--Newsweek-red) !important;
 }
 
+.anchor-highlight:hover {
+  background-color: lightgray;
+}
+
 .main-header {
   height: 50px;
 }
@@ -213,4 +217,32 @@ img {
 
 .bottom-news-tags-links {
   font-size: inherit;
+}
+
+.subscribe-cover-box {
+  min-height: calc(227px + 4.5rem);
+  min-width: calc(170px + 3rem);
+}
+
+.subscribe-cover-img {
+  height: 227px;
+  width: 170px;
+}
+
+.subscribe-cover-img:nth-child(2) {
+  top: 15%;
+  left: 25%;
+  z-index: 1020;
+}
+
+.subscribe-box-details {
+  min-width: 0;
+}
+
+.subscribe-box-newsletter {
+  min-height: 216px;
+}
+
+.newsletter-img {
+  max-width: 191px;
 }
