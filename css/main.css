@@ -27,6 +27,10 @@ img {
   object-fit: cover;
 }
 
+.bg-pearl {
+  background-color: #f4f5f6;
+}
+
 .border-pearl {
   border-color: #ddd;
 }
@@ -188,9 +192,25 @@ img {
   top: -100vh;
 }
 
-.test-div {
-  display: block;
-  height: 100vh;
-  width: 100vw;
-  background-color: red;
+.bottom-tag-yang {
+  width: 170px;
+  font-size: 15px;
+  max-width: 162px;
+}
+
+.bottom-features-link:hover {
+  background-color: lightgrey;
+}
+
+.favicon {
+  width: 29px;
+  height: 28px;
+}
+
+.bottom-news-tags {
+  font-size: 16px;
+}
+
+.bottom-news-tags-links {
+  font-size: inherit;
 }
